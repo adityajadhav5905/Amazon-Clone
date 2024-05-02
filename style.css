@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+
+* {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background: rgb(138, 191, 189);
+    background: radial-gradient(circle, rgba(138, 191, 189, 0.8492647058823529) 0%, rgba(138, 191, 189, 1) 100%);
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+pre {
+    color: rgb(224, 232, 219);
+    font-size: 16px;
+}
+
+.blbar {
+    background-color: black;
+    margin-top: 5px;
+
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin-top: -5px;
+    margin-left: -5px;
+
+
+}
+
+#logo {
+    height: 55px;
+    margin-top: 5px;
+    margin-left: 19px;
+    background-color: black;
+
+
+}
+
+#scbar {
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 5px;
+    background-color: black;
+
+}
+
+input {
+    width: 363px;
+    background-color: rgb(236, 238, 224);
+}
+
+
+input,
+#scbut {
+    border-radius: 20px;
+    height: 25px;
+    border: 1.5px solid rgb(236, 238, 224);
+
+
+}
+
+#scbut {
+    background-color: rgb(202, 194, 41);
+    width: 60px;
+    margin-left: 5px;
+}
+
+#shic {
+    height: 30px;
+    border-radius: 40px;
+    background-color: black;
+}
+
+.orderbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 5px;
+    width: 562px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: black;
+
+}
+
+#account,
+#orders,
+#shopicon {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+
+}
+
+.hero {
+    height: 500px;
+    background-image: url(/img/hero_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.hero img {
+    height: 500px;
+    zoom: 1.35;
+    margin-left: -136px;
+    z-index: -1;
+
+}
+.box {
+    margin-top: 10px;
+    z-index: 500;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+.boxes {
+    margin: 30px 2.5%;
+    background-color: rgb(218, 232, 235);
+    height: 400px;
+    width: 20%;
+    z-index: 1000;
+    border-radius: 7px;
+
+}
+
+.box2 {
+    margin-top: 50px;
+    z-index: 500;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+.boxes img {
+    width: 90%;
+    height: 80%;
+    margin: 5% ;
+}
+.boxes h2 {
+    margin: 5px 5px 5px;
+    padding: 5px;
+
+}
+
+.foot1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #232F3E;
+    color: rgb(211, 213, 207);
+    margin-top: 100px;
+
+}
+
+#foot {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-bottom: 5%;
+    margin-bottom: 5%;
+    text-decoration: none;
+    padding: 50px;
+}
+ul {
+    list-style-type: none;
+}
+
+#foot p {
+    font-size: 16;
+    font-weight: bolder;
+
+}
+#foot li {
+    font-size: 10;
+    font-weight: lighter;
+
+}
+.foot2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #232F3E;
+
+
+}
+.foot2 img {
+    padding: 5px;
+    height: 90px;
+
+}
+.copyright {
+    background-color: black;
+    color: rgb(207, 210, 197);
+    height: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 5px;
+}
